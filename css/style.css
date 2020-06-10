@@ -1,9 +1,11 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Elementi */
 body {
   font-size: 1em;
   font-weight: 500;
@@ -44,10 +46,12 @@ nav > section {
   margin-top: 46px;
 }
 
+/* classe richiamata all'hover */
 .bold {
   color: #000;
 }
 
+/* navigation bar */
 .menu-left-container {
   text-transform: uppercase;
 }
