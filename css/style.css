@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  font-weight: 500;
+  color: #8c8d8f;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+sup {
+  color: #F20C8C;
+  font-size: 0.8em;
+}
+
+img {
+  width: 150px;
+  vertical-align: top;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  line-height: 48px;
+}
+
+section > ul > li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+nav > section {
+  width: 50%;
+  margin-top: 46px;
+}
+
+.bold {
+  color: #000;
+}
+
+.menu-left-container {
+  text-transform: uppercase;
+}
+
+.menu-right-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdown-container {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: -110px;
+  text-align: left;
+}
+
+.dropdown {
+  list-style: none;
+  margin-top: 26px;
+  width: 280px;
+  text-align: center;
+  box-shadow: -1px 4px 3px 4px rgba(0,0,0,0.09);
+  border-radius: 3px;
+  z-index: 3;
+}
+
+.download-app {
+  border: 0;
+  padding: 14px 16px;
+  border-radius: 15px;
+  background-color: #F20C8C;
+  color: #FFF;
+  font-weight: bold;
+}
